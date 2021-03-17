@@ -32,7 +32,7 @@ public class Item_Details {
    private By name = By.xpath("//input[@placeholder='Name']");
    private By price = By.xpath("//input[@placeholder='Price']");
     private By buttons_tap = By.xpath("//button[@data-test='buttons']");
-    private  By use_default_buttons_checkbox = By.xpath("//div[@class='btn-default custom-control custom-checkbox']//child::label");
+    private  By use_default_buttons_checkbox = By.xpath("//div[contains(@class,'custom-checkbox')]/label");
     private By button_label_1 = By.xpath("//input[@placeholder='Button1 Label']");
     private By button_label_2 = By.xpath("//input[@placeholder='Button2 Label']");
     private By button_label_3 = By.xpath("//input[@placeholder='Button3 Label']");
